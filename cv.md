@@ -8,6 +8,7 @@
 * **E-mail:** ninikitin@kantiana.ru
 * **Telegram:** @ninikitin
 * [LinkedIn][linkedin]
+
 [linkedin]: http://linkedin.com/ "LinkedIn"
 
 ## Briefly About Myself:
