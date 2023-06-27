@@ -33,11 +33,11 @@ IN PROGRESS
 
 ## Education
 
-JavaScript Manual on learnjavascript.ru (in progress)
-RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+- JavaScript Manual on learnjavascript.ru (in progress)
+- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 ## Languages
 
-English - B1
-Russian - Native
-German - A2
+- English - B1
+- Russian - Native
+- German - A2
