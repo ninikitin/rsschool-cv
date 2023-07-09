@@ -154,7 +154,7 @@ body {
 
 .section-subtitle {
   margin-top: 20px;
-  color: #5c5c5c;
+  color: #FFA351;
   line-height: 50px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -355,7 +355,7 @@ body {
     height: 100vh;
     min-height: 525px;
     flex-direction: column;
-    background-color: #829985;
+    background-color: #00539C;
   }
   .nav-list.collapsed {
     display: flex;
