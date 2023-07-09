@@ -67,15 +67,6 @@ body {
   animation-fill-mode: forwards;
 }
 
-@keyframes slidein {
-  from {
-    width: 0;
-  }
-  to {
-    width: calc(100% - 24px);
-  }
-}
-
 .main {
   margin-bottom: auto;
 }
