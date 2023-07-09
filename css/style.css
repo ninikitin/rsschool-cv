@@ -283,6 +283,41 @@ body {
   background-repeat: no-repeat;
 }
 
+/** Adaptive **/
+.toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: auto;
+  cursor: pointer;
+  user-select: none;
+  z-index: 15;
+}
+
+.toggle div {
+  width: 80%;
+  height: 2px;
+  background: #fff;
+  margin: 3px 0;
+  z-index: 15;
+}
+
+.toggle.collapsed .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle.collapsed .line2 {
+  opacity: 0;
+}
+
+.toggle.collapsed .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
 @media (max-width: 1440px) {
   .container {
     padding: 0 20px;
