@@ -47,3 +47,12 @@ def eucl_dist(x,x_prime):
 
 eucl_dist(x,x_prime)
 ```
+
+# Education
+
+* **Immanuel Kant Baltic Federal University**
+    * Organization of transportation and transport management (engineer)
+    * Materials science and technology (master's degree)
+    * Mathematics and mechanics (lecturer and researcher)
+* **Russian Open Education**
+    * Data scientist
