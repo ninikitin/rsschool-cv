@@ -56,3 +56,9 @@ eucl_dist(x,x_prime)
     * Mathematics and mechanics (lecturer and researcher)
 * **Russian Open Education**
     * Data scientist
+
+# Languages
+
+* Russian - native
+* English - B2
+* German - A1
