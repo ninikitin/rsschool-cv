@@ -26,3 +26,24 @@ One year ago I've become passionate about Data Analysis and Macine Learning. I'v
 * Figma
 * draw.io
 * PTV VISSIM and VISUM (for transport modelling)
+
+# Code example
+
+```
+import numpy as np
+
+# Задаем оба вектора как массивы numpy
+
+x = np.array([1,3,-5,7])
+x_prime = np.array([2,-4,0,8])
+
+
+# Функция для нахождения евклидова расстояния
+def eucl_dist(x,x_prime):
+  dist = 0
+  for coord_1, coord_2 in zip(x,x_prime):
+    dist += (coord_1 - coord_2) ** 2
+  return dist ** 0.5
+
+eucl_dist(x,x_prime)
+```
