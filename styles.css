@@ -11,6 +11,11 @@
     display: flex; /* Flexbox layout */
     flex-direction: column; /* Direction of the flex container’s main axis */
     justify-content: space-between; /* Distribute items evenly. The first item is flush with the start, the last is flush with the end */
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
   }
 
   .container {
