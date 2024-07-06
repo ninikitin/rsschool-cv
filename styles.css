@@ -1,16 +1,16 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* Consider borders and indents in element sizes */
   }
 
   html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Smooth scrolling */
   }
 
   body {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border: 1px solid red; /* Drawing element boundaries */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Direction of the flex container’s main axis */
+    justify-content: space-between; /* Distribute items evenly. The first item is flush with the start, the last is flush with the end */
   }
 
   .container {
