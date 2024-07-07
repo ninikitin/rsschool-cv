@@ -243,3 +243,38 @@ nav {
   color: #000000
 }
 
+.right-side {
+  margin-left: 20px;
+  padding-right: 25px;
+}
+
+.right-side h2 {
+  color: #000000;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.summary p {
+  line-height: 25px;
+}
+
+.skills h3 {
+  margin: 35px 0 15px 0;
+  color: #4b0082;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 16px;
+  margin: 0 10px 5px 0;
+  display: inline-block;
+  word-spacing: 10px;
+  text-decoration: underline;
+  padding: 0;
+}
