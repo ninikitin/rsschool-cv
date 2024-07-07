@@ -18,6 +18,20 @@
     color: #4d2323;
   }
 
+  nav {
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    border-radius: 15px;
+  }
+
+  a,
+  a:link,
+  a:visited {
+    text-decoration: none;
+  }
+
   .container {
     max-width: 1440px;
     margin: 0 auto;
