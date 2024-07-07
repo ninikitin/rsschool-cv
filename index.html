@@ -1,0 +1,206 @@
+<!-- Defines types of documents : Html 5.O -->
+<!DOCTYPE html>
+
+<!-- Defines languages of content : English -->
+<html lang="en">
+
+<head>
+    <!-- Information about website -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Defines the compatibility of version with browser -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <!-- for make website responsive -->
+    <meta name="author" content="ninikitin">
+
+    <!-- To give information about author or owner -->
+    <meta name="GitHub profile" content="https://github.com/ninikitin">
+
+    <!-- About website in few words -->
+    <meta name="CV" content="CV of Nikolai Nikitin">
+
+    <!-- Fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./src/assets/svg/favicon.svg">
+
+    <!-- CSS Files Links -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Name of website or content to display -->
+    <title>Nikitin CV</title>
+
+</head>
+<body>
+    <!-- Main content of website -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <img src="./src/assets/img/photo.jpg" alt="profile-photo" class="profile-photo">
+                <div class="header-text">
+                    <h1>Nikolai Nikitin</h1>
+                    <p>Junior System Analyst</p>
+                </div>
+                <div class="contacts">
+                    <ul class="contacts-info">
+                        <li>
+                            <p class="contacts-name">Contacts:</p>
+                        </li>
+                        <li class="contacts-item">
+                            <img src="./src/assets/svg/phone.svg" alt="phone">
+                            <a href="tel:+79114616333">+79114616333</a>
+                        </li>
+                        <li class="contacts-item">
+                            <img src="./src/assets/svg/email.svg" alt="email">
+                            <a href="mailto:benedict19@gmail.com">benedict19@gmail.com</a>
+                        </li>
+                        <li class="contacts-item">
+                            <img src="./src/assets/svg/telegram.svg" alt="telegram">
+                            <a href="https://t.me/ninikitin">@ninikitin</a>
+                        </li>
+                        <li class="contacts-item">
+                            <img src="./src/assets/svg/location.svg" alt="location">
+                            <a href="https://yandex.ru/maps/22/kaliningrad/">Kaliningrad, Russia</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <section class="experience" id="experience">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <h3>Head of the traffic control center</h3>
+                    <h4>Regional state-owned institution "Control center of Intelligent Transport System in Kaliningrad Region"</h4>
+                    <p>March 2021 - Present, Kaliningrad</p>
+                    <ul class="experience-list">
+                        <li>
+                            Development of local project for implementation of intelligent transportation system.
+                        </li>
+                        <li>
+                            Development of transportation planning documents.
+                        </li>
+                        <li>
+                            Analysis of the transport system of the Kaliningrad region.
+                        </li>
+                </div>
+            </section>
+            <section class="code-example" id="code-example">
+                <h2>Code example</h2>
+                <pre>
+                    <code class="language-python">
+import numpy as np
+
+# Задаем оба вектора как массивы numpy
+
+x = np.array([1,3,-5,7])
+x_prime = np.array([2,-4,0,8])
+
+
+# Функция для нахождения евклидова расстояния
+def eucl_dist(x,x_prime):
+  dist = 0
+  for coord_1, coord_2 in zip(x,x_prime):
+    dist += (coord_1 - coord_2) ** 2
+  return dist ** 0.5
+
+eucl_dist(x,x_prime)
+                    </code>
+                </pre>
+            </section>
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <ul class="projects-list">
+                    <li class="project-list-item">
+                        <a href="https://ninikitin.github.io/rsschool-cv/cv" target="_blank">
+                            <img src="./src/assets/img/cv.jpeg" alt="CV" class="project-cv">
+                            <h3>CV</h3>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Organization of transportation and transport management</h3>
+                    <h4>Engineer, Immanuel Kant Baltic Federal University</h4>
+                    <p>2009-2014, Kaliningrad</p>
+                </div>
+                <div class="education-item">
+                    <h3>Materials science and technology</h3>
+                    <h4>Master degree, Immanuel Kant Baltic Federal University</h4>
+                    <p>2017-2019, Kaliningrad</p>
+                </div>
+                <div class="education-item">
+                    <h3>Data analysis technology, Python</h3>
+                    <h4>ITMO University</h4>
+                    <p>2022, Online</p>
+                </div>
+            </section>
+        </div>
+        <div class="right-side">
+            <section class="summary" id="about-me">
+                <h2 class="summary-title">Summary</h2>
+                <p>
+                    Fast learner, research and writing skills. Experience in traffic flow modeling and development of traffic management projects.
+                </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <h3>Coding</h3>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+                <h3>Tools &amp; Technologies</h3>
+                <ul class="tools-list">
+                    <li>Visual Studio Code</li>
+                    <li>Figma</li>
+                    <li>Git</li>
+                    <li>draw.io</li>
+                    <li>PTV VISSIM and VISUM</li>
+                </ul>
+                <h3>Languages</h3>
+                <ul class="languages-list">
+                    <li>Russian (Native)</li>
+                    <li>English (B2)</li>
+                    <li>German (A1)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="https://github.com/ninikitin" target="_blank" class="footer-github">
+                <img src="./src/assets/svg/icon_github.svg" alt="icon_github" width="50" height="50">
+                <p>GitHub ninikitin</p>
+            </a>
+            <p><time datetime="2024-07-07">2024</time></p>
+            <a class="footer-rsscholl-icon" href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+                <img src="./src/assets/svg/icon_rsschool.svg" alt="icon_rsschool" width="100">
+        </div>
+    </footer>
+
+</body>
+</html>
