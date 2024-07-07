@@ -15,15 +15,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: #4d2323;
-  }
-
-  nav {
-    justify-content: center;
-    width: 100%;
-    padding: 20px 0;
-    display: flex;
-    border-radius: 15px;
+    color: #333;
+    background-color: #fff;
   }
 
   a,
@@ -33,52 +26,116 @@
   }
 
   .container {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
+  }
+
+  nav {
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    border-radius: 15px;
+    background-color: #494283;
   }
 
   .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
-
-  .nav-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
-  }
-
-  .nav-link {
     transition: 0.3s;
   }
 
-  .section-item a {
-    color: #829985;
+  .nav-item a {
     text-decoration: none;
-    transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #4d2323;
+    position: relative;
+    outline: none;
+    color: #fff;
+    transition: opacity 0.3s ease-in-out;
   }
 
-  .section-title {
+  .profile-photo {
+    border-radius: 50%;
+    margin: 0 25px 0 50px;
+  }
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    margin: 50px 0 25px 0;
+  }
+
+  .header-text p {
+    font-size: 24px;
+    margin: 0;
+    color: #4b0082;
+  }
+
+  .header-content h1 {
+    font-size: 36px;
+    margin: 5px;
+  }
+
+  .contacts {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .contacts-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .contacts-info p:first-child {
+    color: #4b0082;
     font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #829985;
+    margin: 0 0 10px 0;
   }
 
-  .link {
-    text-decoration: none;
-    color: #829985;
-    transition: color 0.5s;
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
   }
 
-  .link:hover {
-    color: #5d7260;
+  .contact-item a {
+    color: black;
   }
+
+  .contact-item a:hover {
+    color: #4b0082;
+  }
+
+  .contact-item p {
+    margin: 0;
+  }
+
+  .contact-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .main-container {
+    display: grid;
+    grid-template-columns: 900px 6fr;
+    width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.1)
+  }
+
