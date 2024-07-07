@@ -304,3 +304,36 @@ nav {
   text-decoration: underline;
   padding: 0;
 }
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1200px;
+  margin: 0px auto;
+  padding: 20px;
+  align-items: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.footer-github {
+  display: flex;
+}
+
+.footer-github p {
+  color: black;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.footer-github:hover p {
+  color: rgba(127, 86, 217, 1);
+}
+
+.footer-container p {
+  justify-self: center;
+}
+
+.footer-rsscholl-icon {
+  justify-self: end;
+}
