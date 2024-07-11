@@ -8,7 +8,6 @@ html {
 }
 
 body {
-  border: 1px solid red; /* Drawing element boundaries */
   display: flex; /* Flexbox layout */
   flex-direction: column; /* Direction of the flex container’s main axis */
   justify-content: space-between; /* Distribute items evenly. The first item is flush with the start, the last is flush with the end */
@@ -34,7 +33,7 @@ nav {
   padding: 20px 0;
   display: flex;
   border-radius: 15px;
-  background-color: #494283;
+  background-color: #4169E1;
 }
 
 .nav-list {
@@ -334,4 +333,51 @@ nav {
 
 .footer-rsscholl-icon {
   justify-self: end;
+}
+
+.right-side {
+  margin-left: 20px;
+  padding-right: 25px;
+}
+
+.right-side h2 {
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.right-side h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(127, 86, 217, 1);
+}
+
+.left-side  {
+  padding-left: 25px;
+  margin-right: 50px;
+}
+
+.left-side h2 {
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+  /* margin: 15px 0 10px; */
+}
+
+.left-side h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(127, 86, 217, 1);
 }
