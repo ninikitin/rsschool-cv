@@ -335,3 +335,26 @@ nav {
 .footer-rsscholl-icon {
   justify-self: end;
 }
+
+.right-side {
+  margin-left: 20px;
+  padding-right: 25px;
+}
+
+.right-side h2 {
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.right-side h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(127, 86, 217, 1);
+}
